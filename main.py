@@ -14,7 +14,7 @@ from system_logic import (
 # --- Tkinter GUI Setup ---
 ROOT = tk.Tk()
 ROOT.title("Mini Fashion E-commerce")
-ROOT.geometry("800x600")
+ROOT.geometry("800x400")
 
 # --- Frames (Containers for different views) ---
 login_frame = tk.Frame(ROOT)

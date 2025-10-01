@@ -266,7 +266,9 @@ def api_checkout(card_number, cvc):
         test_nonce = "cnon:card-nonce-ok"
     elif card_number ==  "4000000000000002" and cvc == "123":
         test_nonce = "cnon:card-nonce-declined"
-    
+    else:
+        test_nonce = "cnon:card-nonce-declined"
+        
     # 2. Process Payment based on selection
     payment_result = square_api_integration(total_amount, nonce=test_nonce) 
 
