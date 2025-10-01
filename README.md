@@ -14,8 +14,7 @@ This section defines the mandatory environment setup and tools required before s
 | :--- | :--- | :--- |
 | **Operating System** | **Windows 10 or 11** | The application is a desktop GUI app built specifically for the Windows OS. |
 | **Runtime** | **Python 3.9+** | The standard Python environment is required to execute the scripts. |
-| **Dependencies** | **Standard Library Only** | The application uses built-in Python modules (like `tkinter`, `sqlite3`). The `requirements.txt` file contains other required packages. Open a terminal in your project’s root folder (where requirements.txt is located). Then run, ```pip install -r requirements.txt```
- |
+| **Dependencies** | **Standard Library Only** | The application uses built-in Python modules (like `tkinter`, `sqlite3`). The `requirements.txt` file contains other required packages. Open a terminal in your project’s root folder (where requirements.txt is located). Then run, ```pip install -r requirements.txt```|
 
 ### 1.2 Execution Setup
 
